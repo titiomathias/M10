@@ -1,3 +1,5 @@
+% Made in https://swish.swi-prolog.org/
+
 linguagemDeProgramacao(python).
 linguagemDeProgramacao(c).
 linguagemDeProgramacao(java).
