@@ -1,4 +1,5 @@
 % Made in https://swish.swi-prolog.org/
+% Which IDE X I can use to programming POO OR MARKUP LANGUAGE in Y language?
 
 linguagemDeProgramacao(python).
 linguagemDeProgramacao(c).
@@ -28,6 +29,11 @@ poo(X, Y) :-
     ide(X, Y),
     linguagemDeProgramacao(Y).
 
-marcacao(X, Y) :-
+markup(X, Y) :-
     ide(X, Y),
     linguagemDeMarcacao(Y).
+
+
+% ide(X, html)
+% poo(sublime, X)
+% markup(vscode, X)
