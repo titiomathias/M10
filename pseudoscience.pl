@@ -1,6 +1,5 @@
 % https://swish.swi-prolog.org/
-% A ideia por trás do banco de dados em questão é verificar se um determinado estudo
-% é ou não uma pseudociência.
+% Let's verify if is pseudoscience or not!
 
 conteudo(neurociencia, ciencia).
 conteudo(psicologia, ciencia).
