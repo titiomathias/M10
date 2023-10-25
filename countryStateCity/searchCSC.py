@@ -1,12 +1,16 @@
 import requests
 
-auth_token = ("JSON WEB TOKEN")
+# API https://www.universal-tutorial.com/rest-apis/free-rest-api-for-country-state-city
+# This script will connect in the API and got states and cities by the countries in the list.
+
+auth_token = ("JSON WEB TOKEN") # GOT IT IN THE API WEBSITE!
 
 headers = {
     "Authorization": auth_token,
     "Accept": "application/json"
 }
 
+# A kind of countries to demonstration
 paises = ['Albania', 'Algeria', 'Angola', 'Belgium',
           'Dominican Republic', 'Ecuador', 'Egypt','Ethiopia',
           'Finland',
