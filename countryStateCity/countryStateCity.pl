@@ -1,3 +1,7 @@
+% https://swish.swi-prolog.org/ -> Prolog IDE
+% https://www.universal-tutorial.com/rest-apis/free-rest-api-for-country-state-city -> API to get information to database
+% A database prolog to see country territories, with some states and cities.
+
 country(albania).
 country(algeria).
 country(angola).
